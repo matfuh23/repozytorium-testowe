@@ -1,0 +1,14 @@
+// Moduł główny
+function modulGlowny() {
+    let [wartoscSprzedazy, pobranaZaliczka] = pobierzWartoscMiesiecznejSprzedazy();
+    pensja = obliczaniePensji(wartoscSprzedazy, pobranaZaliczka);
+
+    console.log("Pensja pracownika: " + pensja.toFixed(2));
+
+    if (pensja < 0) {
+        console.log("Pracownik musi zwrócić pieniądze firmie.");
+    }
+}
+
+// Wywołanie modułu głównego
+modulGlowny();

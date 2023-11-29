@@ -1,0 +1,12 @@
+// Typ danych
+let pensja;
+
+// Pobieranie wartości miesięcznej sprzedaży
+function pobierzWartoscMiesiecznejSprzedazy() {
+    let wartoscSprzedazy = parseFloat(prompt("Podaj wartość miesięcznej sprzedaży pracownika: "));
+    let pobranaZaliczka = parseFloat(prompt("Podaj wysokość pobranej zaliczki pracownika: "));
+    return [wartoscSprzedazy, pobranaZaliczka];
+}
+
+
+

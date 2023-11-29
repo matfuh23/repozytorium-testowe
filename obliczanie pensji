@@ -1,4 +1,3 @@
-// Obliczanie pensji
 function obliczaniePensji(wartoscSprzedazy, pobranaZaliczka) {
     if (wartoscSprzedazy < 10000) {
         pensja = wartoscSprzedazy * 0.10 - pobranaZaliczka;

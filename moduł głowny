@@ -9,5 +9,4 @@ function modulGlowny() {
     }
 }
 
-// Wywołanie modułu głównego
 modulGlowny();
